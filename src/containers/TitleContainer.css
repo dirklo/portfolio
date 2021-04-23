@@ -1,0 +1,33 @@
+.title_container {
+    height: 800px;
+    width: 1320px;
+    background-color: #151D3C;
+    border-radius: 67px 67px 0 0;
+}
+
+.title_container h1 {
+    position: absolute;
+    width: 276px;
+    height: 168px;
+    left: 200px;
+    top: 250px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0.2em;
+  
+    color: white;
+}
+
+.title_container #main-portrait {
+    position: absolute;
+    height: 700px;
+    bottom: 0px;
+    left: 400px;
+}
+
+
+  
