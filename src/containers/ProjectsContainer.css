@@ -1,0 +1,8 @@
+.projects-container {
+    position: relative;
+    width: 1320px;
+    background-color: #747CC6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

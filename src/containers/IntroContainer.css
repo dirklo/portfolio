@@ -1,6 +1,6 @@
 .intro-container {
     position: absolute;
-    right: 150px;
+    right: 100px;
     top: 200px;
     color: white;
     font-family: Roboto;
@@ -19,7 +19,7 @@
 }
 
 .intro-container #bottom {
-    width: 405px;
+    width: 410px;
     font-size: 18px;
     font-style: normal;
     font-weight: normal;

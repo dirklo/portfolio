@@ -1,0 +1,58 @@
+.contact-form {
+    position: relative;
+}
+
+.contact-form .input-div {
+    position: relative;
+}
+.contact-form .input-div input{
+    width: 400px;
+    padding: 10px;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    border-radius: 0;
+    border: none;
+    border-bottom: 3px solid white;
+}
+
+.contact-form .input-div input:focus {
+    outline: none;
+}
+
+.contact-form .input-div label {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.contact-form .input-div .active {
+    color: rgb(20, 197, 220);
+    top: 0px;
+    left: 5px;
+    font-size: 14px;
+}
+
+.contact-form label {
+    position: relative;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+}
+.contact-form textarea {
+    font-family: 'Roboto';
+    font-size: 18px;
+    resize: none;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+}
+

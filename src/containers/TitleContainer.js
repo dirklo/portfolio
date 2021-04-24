@@ -10,6 +10,7 @@ export default class TitleContainer extends Component {
             <div className="title_container">
                 <h1>Rick Moore</h1>
                 <img src={mainPortrait} id="main-portrait" alt="main portrait" />
+                <div id="rect1"></div>
                 <SocialContainer />
                 <IntroContainer />
             </div>
