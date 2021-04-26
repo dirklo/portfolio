@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5637057e.chunk.css",
-    "main.js": "/portfolio/static/js/main.0fe1fe06.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0fe1fe06.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.0336a74e.chunk.css",
+    "main.js": "/portfolio/static/js/main.8862ed2b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8862ed2b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3f1853a2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3f1853a2.js.map",
     "static/js/2.238ae1c1.chunk.js": "/portfolio/static/js/2.238ae1c1.chunk.js",
@@ -10,15 +10,18 @@
     "static/js/3.2d61afe9.chunk.js": "/portfolio/static/js/3.2d61afe9.chunk.js",
     "static/js/3.2d61afe9.chunk.js.map": "/portfolio/static/js/3.2d61afe9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.5637057e.chunk.css.map": "/portfolio/static/css/main.5637057e.chunk.css.map",
+    "static/css/main.0336a74e.chunk.css.map": "/portfolio/static/css/main.0336a74e.chunk.css.map",
     "static/js/2.238ae1c1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.238ae1c1.chunk.js.LICENSE.txt",
     "static/media/chartsource.437f5ef5.png": "/portfolio/static/media/chartsource.437f5ef5.png",
+    "static/media/chartsourceBg.b87b2f32.jpg": "/portfolio/static/media/chartsourceBg.b87b2f32.jpg",
     "static/media/github.895050b2.svg": "/portfolio/static/media/github.895050b2.svg",
     "static/media/javascript.081325c6.svg": "/portfolio/static/media/javascript.081325c6.svg",
     "static/media/linkedin.64c918fa.svg": "/portfolio/static/media/linkedin.64c918fa.svg",
     "static/media/mainportrait.2be15b17.png": "/portfolio/static/media/mainportrait.2be15b17.png",
     "static/media/pantam.8de9c3f7.png": "/portfolio/static/media/pantam.8de9c3f7.png",
+    "static/media/pantamBg.ef86f36a.jpg": "/portfolio/static/media/pantamBg.ef86f36a.jpg",
     "static/media/quizit.389882f4.png": "/portfolio/static/media/quizit.389882f4.png",
+    "static/media/quizitBg.d850aa91.jpg": "/portfolio/static/media/quizitBg.d850aa91.jpg",
     "static/media/rails.bec848e2.png": "/portfolio/static/media/rails.bec848e2.png",
     "static/media/ruby.724766cb.svg": "/portfolio/static/media/ruby.724766cb.svg",
     "static/media/sinatra.5c61ac4b.png": "/portfolio/static/media/sinatra.5c61ac4b.png",
@@ -27,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f1853a2.js",
     "static/js/2.238ae1c1.chunk.js",
-    "static/css/main.5637057e.chunk.css",
-    "static/js/main.0fe1fe06.chunk.js"
+    "static/css/main.0336a74e.chunk.css",
+    "static/js/main.8862ed2b.chunk.js"
   ]
 }
