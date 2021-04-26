@@ -1,0 +1,92 @@
+.title_container {
+    position: relative;
+    height: 800px;
+    width: 1320px;
+    background-color: #151D3C;
+    /* border-radius: 67px 67px 0 0; */
+    overflow: hidden;
+}
+
+.title_container h1 {
+    position: absolute;
+    width: 276px;
+    height: 168px;
+    left: 160px;
+    top: 150px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+  
+    color: white;
+    z-index: 1;
+}
+
+.title_container #main-portrait {
+    position: absolute;
+    height: 700px;
+    bottom: 0px;
+    left: 400px;
+    z-index: 1;
+}
+
+.title_container #rect1 {
+    position: absolute;
+    bottom: 230px;
+    left: 230px;
+    width: 107px;
+    height: 12px;
+    background-color: #021DA8;
+}
+
+.title_container #diamond {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    transform: rotate(-30deg);
+    top: 100px;
+    right: 100px;
+    background: rgba(255, 198, 26, 0.8);
+    z-index: 0;
+    animation: spin 20s infinite linear;
+}
+  
+@keyframes spin {
+    from { 
+        transform: rotateZ(0deg) rotate(-45deg); 
+    }
+    to {
+        transform: rotateZ(360deg) rotate(-45deg); 
+    }
+}
+
+.title_container #diamond2 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    top: 80px;
+    left: 80px;
+    background: rgba(255, 198, 26, 0.8);
+    z-index: 0;
+    animation: spin2 30s infinite linear;
+}
+
+@keyframes spin2 {
+    from { 
+        transform: rotateZ(360deg) rotate(-45deg); 
+    }
+    to {
+        transform: rotateZ(0deg) rotate(-45deg); 
+    }
+}
+
+
+
+  

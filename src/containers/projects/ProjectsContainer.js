@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './ProjectsContainer.css'
-import ProjectCard from '../components/ProjectCard'
-import projects from '../data/projects'
+import ProjectCard from '../../components/ProjectCard'
+import projects from '../../data/projects'
 
 export default class ProjectsContainer extends Component {
     render() {
@@ -12,8 +12,10 @@ export default class ProjectsContainer extends Component {
                         key={project.title} 
                         title={project.title}
                         titleImg={project.titleImg}
+                        bgImg={project.bgImg}
                         techs={project.techs} 
-                        links={project.links} 
+                        links={project.links}
+                        description={project.description} 
                     />
                 )}
             </div>

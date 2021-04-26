@@ -1,8 +1,8 @@
 import React from 'react'
 import './SocialContainer.css'
-import github from '../img/github.svg'
-import linkedin from '../img/linkedin.svg'
-import twitter from '../img/twitter.svg'
+import github from '../../img/github.svg'
+import linkedin from '../../img/linkedin.svg'
+import twitter from '../../img/twitter.svg'
 
 function SocialContainer() {
     return (

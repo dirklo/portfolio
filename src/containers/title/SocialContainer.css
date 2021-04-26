@@ -1,11 +1,12 @@
 .social-container {
     position: absolute;
     left: 175px;
-    bottom: 200px;
+    bottom: 150px;
     width: 220px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .social-container a {
