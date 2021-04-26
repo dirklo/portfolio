@@ -15,7 +15,8 @@ export default class ProjectsContainer extends Component {
                         bgImg={project.bgImg}
                         techs={project.techs} 
                         links={project.links}
-                        description={project.description} 
+                        description={project.description}
+                        bullets={project.bullets}
                     />
                 )}
             </div>

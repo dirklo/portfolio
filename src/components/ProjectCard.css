@@ -95,8 +95,23 @@
 }
 
 .project-card .card__back p {
+    font-weight: bold;
     transform: var(--level-two);
     color: white;
+    cursor: default; 
+}
+
+.project-card .card__back h2 {
+    color: white;
+    transform: var(--level-three);
+    cursor: default; 
+}
+
+.project-card .card__back li {
+    font-size: 14px;
+    color: white;
+    transform: var(--level-one);
+    cursor: default; 
 }
 
 .project-card .links-list,

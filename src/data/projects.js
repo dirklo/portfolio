@@ -28,7 +28,13 @@ const projects = [
             {type: 'Demo', url: 'https://youtu.be/36xpt6U-q0g'},
             {type: 'Live App', url: 'https://dirklo.github.io/hang-pan-frontend/'}
         ],
-        description: "Virtual Instrument that users can perform in-browser. Utilized JavaScript and the Web Audio API to create a playable instrument. Created database logic with Ruby on Rails as an API, allowing users to save their settings."
+        description: "Virtual Instrument that users can perform in-browser.",
+        bullets: [
+            "Built with vanilla JavaScript and Ruby on Rails.", 
+            "Web Audio API - In-browser audio sampling and effects processing.",
+            "Asynchronous JavaScript - Database communication implemented with fetch and headless Rails API."
+        ]
+
     },
 
     {
@@ -49,7 +55,13 @@ const projects = [
             {type: 'Demo', url: 'https://youtu.be/WjS2R5mJihA'},
             {type: 'Live App', url: 'https://chart-source.herokuapp.com/'}
         ],
-        description: "Allows band-leaders to upload their PDF chart library, create setlists and share those with a team. Utilized Ruby on Rails, Active-record and Active-Storage to maintain a PostgreSQL database. Leveraged Omniauth to allow users to sign in using Facebook or Github. Used Cocoon gem for dynamic forms to allow scalable uploads. Utilized SortableJS and Stimulus to allow for drag and drop functionality that persists to the database."
+        description: "Platform for Band-leaders to upload their PDF chart library, create and share setlists with a team.",
+        bullets: [
+            "Built with Ruby on Rails and a PostgreSQL database.", 
+            "Omniauth - Multi-platform login.",
+            "Cocoon - dynamic forms.",
+            "SortableJS and Stimulus - drag and drop effects."
+        ]
     },
 
     {
@@ -70,7 +82,12 @@ const projects = [
             {type: 'Demo', url: 'https://youtu.be/_Yxp_dMFs2I'},
             {type: 'Live App', url: 'https://quiz-it-three.herokuapp.com/'}
         ],
-        description: "Users can create their own multiple-choice quizzes and share them with their students or friends. Built using Ruby, Sinatra, and JavaScript. Utilized Bcrypt for users to sign in securely. Fully utilized Active-record to maintain a PostgreSQL database."
+        description: "Tool for educators to create their own multiple-choice quizzes and share with their students.",
+        bullets: [
+            "Built with Ruby, Sinatra, and vanilla JavaScript.", 
+            "Bcrypt - Secure user sign-in.", 
+            "Active-Record - Maintains a PostgreSQL database."
+        ]
     }
 ]
 

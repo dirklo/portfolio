@@ -27,8 +27,16 @@ function ProjectCard(props) {
                         )}
                     </div>
                 </div>
-                <div className="card__back">
-                    <p className="card__body">{props.description}</p>
+                <div className='card__back'>
+                    <h2>{props.title}</h2>  
+                    <p className='card__body'>{props.description}</p>
+                    <div className='bullets-list'>
+                        <ul>
+                            {props.bullets.map((bullet, index) =>
+                                <li key={index}>{bullet}</li>
+                            )}
+                        </ul>
+                    </div>
                     <div className='links-list'>
                         {props.links.map(link => 
                             <a 
@@ -38,8 +46,8 @@ function ProjectCard(props) {
                                 target='_blank'
                                 >
                                 {link.type}
-                            </a>)
-                        }
+                            </a>
+                        )}
                     </div>
                 </div>
             </div>
