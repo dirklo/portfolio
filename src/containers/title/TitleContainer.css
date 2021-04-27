@@ -90,4 +90,48 @@
 
 
 
+
+@media (max-width: 480px) {
+    .title_container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .title_container h1 {
+        position: relative;
+        height: 168px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+      
+        font-size: 64px;
+        margin-top: 110px;
+    }
+
+    .title_container #main-portrait {
+        position: absolute;
+        height: 400px;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0.5;
+        z-index: 0;
+    }
+
+    .title_container #diamond2 {
+        display: none;
+    }
+
+    .title_container #rect1 {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+
   

@@ -35,3 +35,28 @@
     font-size: 48px;
     color: rgba(192, 201, 249, 1);
 }
+
+@media (max-width: 480px) {
+    .intro-container {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .intro-container #top {
+        padding: 10px;
+    }
+
+    .intro-container #middle {
+        width: 100%;
+        padding: 10px;
+        font-size: 36px;
+    }
+
+    .intro-container #bottom {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 200px;
+    }
+}

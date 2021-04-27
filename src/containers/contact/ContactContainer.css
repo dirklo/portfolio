@@ -10,3 +10,9 @@
     align-items: center;
     z-index: 2;
 }
+
+@media (max-width: 480px) {
+    .contact-container {
+        width: 100%;
+    }
+}

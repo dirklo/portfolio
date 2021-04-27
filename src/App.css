@@ -3,11 +3,9 @@
 .App {
   position: relative;
   background-color: #151D3C;
-  /* background-color: rgba(68, 80, 139, 1); */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  /* padding-top: 50px; */
 }
 
