@@ -6,7 +6,7 @@ import projects from '../../data/projects'
 export default class ProjectsContainer extends Component {
     render() {
         return (
-            <div className="projects-container">
+            <div className="projects-container" id="projects">
                 {projects.map(project => 
                     <ProjectCard
                         key={project.title} 
