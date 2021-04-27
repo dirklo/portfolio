@@ -65,7 +65,7 @@ const projects = [
     },
 
     {
-        title: 'Quit It',
+        title: 'Quiz It',
         titleImg: {
             url: quizit,
             height: '80px'

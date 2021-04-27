@@ -9,6 +9,7 @@
 .intro-container #top {
     font-size: 18px;
     color: white;
+    cursor: default;
 }
     
 .intro-container #middle {
@@ -16,6 +17,7 @@
     font-size: 48px;
     letter-spacing: 0.1em;
     color: white;
+    cursor: default;
 }
 
 .intro-container #bottom {
@@ -26,6 +28,7 @@
     letter-spacing: 0.1em;
     line-height: 30px;
     color: white;
+    cursor: default;
 }
 
 .intro-container a {

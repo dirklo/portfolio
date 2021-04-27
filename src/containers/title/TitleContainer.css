@@ -24,6 +24,7 @@
   
     color: white;
     z-index: 1;
+    cursor: default;
 }
 
 .title_container #main-portrait {
@@ -32,6 +33,7 @@
     bottom: 0px;
     left: 400px;
     z-index: 1;
+    pointer-events: none;
 }
 
 .title_container #rect1 {
