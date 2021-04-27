@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.88ca005c.chunk.css",
-    "main.js": "/static/js/main.dd12069d.chunk.js",
-    "main.js.map": "/static/js/main.dd12069d.chunk.js.map",
+    "main.js": "/static/js/main.6095447e.chunk.js",
+    "main.js.map": "/static/js/main.6095447e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2bec2088.js",
     "runtime-main.js.map": "/static/js/runtime-main.2bec2088.js.map",
     "static/js/2.ac8a9218.chunk.js": "/static/js/2.ac8a9218.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/github.895050b2.svg": "/static/media/github.895050b2.svg",
     "static/media/javascript.081325c6.svg": "/static/media/javascript.081325c6.svg",
     "static/media/linkedin.64c918fa.svg": "/static/media/linkedin.64c918fa.svg",
-    "static/media/mainportrait.2be15b17.png": "/static/media/mainportrait.2be15b17.png",
+    "static/media/mainportrait.c650fda0.png": "/static/media/mainportrait.c650fda0.png",
     "static/media/pantam.8de9c3f7.png": "/static/media/pantam.8de9c3f7.png",
     "static/media/pantamBg.ef86f36a.jpg": "/static/media/pantamBg.ef86f36a.jpg",
     "static/media/quizit.389882f4.png": "/static/media/quizit.389882f4.png",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.2bec2088.js",
     "static/js/2.ac8a9218.chunk.js",
     "static/css/main.88ca005c.chunk.css",
-    "static/js/main.dd12069d.chunk.js"
+    "static/js/main.6095447e.chunk.js"
   ]
 }
