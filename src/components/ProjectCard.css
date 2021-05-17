@@ -91,7 +91,7 @@
 }
 
 .project-card .card__front .techs-list {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

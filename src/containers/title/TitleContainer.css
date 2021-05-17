@@ -36,6 +36,13 @@
     pointer-events: none;
 }
 
+.title_container #logo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 100px;
+}
+
 .title_container #rect1 {
     position: absolute;
     bottom: 230px;
@@ -69,11 +76,11 @@
 
 .title_container #diamond2 {
     position: absolute;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     border-radius: 50px;
-    top: 80px;
-    left: 80px;
+    top: 110px;
+    left: 110px;
     background: rgba(255, 198, 26, 0.8);
     z-index: 0;
     animation: spin2 30s infinite linear;

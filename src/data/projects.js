@@ -1,15 +1,47 @@
+import taskaholik from '../img/taskaholik.png'
+import taskaholikBg from '../img/taskaholikBg.png'
 import pantam from '../img/pantam.png'
 import pantamBg from '../img/pantamBg.jpg'
 import chartsource from '../img/chartsource.png'
 import chartsourceBg from '../img/chartsourceBg.jpg'
 import quizit from '../img/quizit.png'
 import quizitBg from '../img/quizitBg.jpg'
+import cryptosearch from '../img/cryptosearch.png'
+import cryptosearchBg from '../img/cryptosearchBg.png'
 import javascript from '../img/javascript.svg'
 import rails from '../img/rails.png'
 import ruby from '../img/ruby.svg'
 import sinatra from '../img/sinatra.png'
+import react from '../img/react.png'
 
 const projects = [
+    {
+        title: 'Taskaholik',
+        titleImg: {
+            url: taskaholik,
+            height: '80px'
+        },
+        bgImg: {
+            url: taskaholikBg
+        },
+        techs: [
+            {name: 'react', img: react, height: '75px'},
+            {name: 'javascript', img: javascript, height: '85px'},
+            {name: 'rails', img: rails, height: '75px'}
+        ],
+        links: [
+            {type: 'Code', url: 'https://github.com/dirklo/taskaholik-front-end'},
+            {type: 'Demo', url: 'https://youtu.be/FmPsPjfME3E'},
+            {type: 'Live App', url: 'https://dirklo.github.io/taskaholik-frontend/'}
+        ],
+        description: "Bug-tracker that allows a team to delegate and track work on multiple projects.",
+        bullets: [
+            "React - including hooks and routing.", 
+            "Redux and Thunk - asynchronously updates and persists information for users in real-time.",
+            "Devise gem - User login using JSON Web Tokens."
+        ]
+    },
+
     {
         title: 'Pantam',
         titleImg: {
@@ -87,6 +119,30 @@ const projects = [
             "Built with Ruby, Sinatra, and vanilla JavaScript.", 
             "Bcrypt - Secure user sign-in.", 
             "Active-Record - Maintains a PostgreSQL database."
+        ]
+    },
+
+    {
+        title: 'Crypto-Search',
+        titleImg: {
+            url: cryptosearch,
+            height: '75px'
+        },
+        bgImg: {
+            url: cryptosearchBg
+        },
+        techs: [
+            {name: 'ruby', img: ruby, height: '75px'}
+        ],
+        links: [
+            {type: 'Code', url: 'https://github.com/dirklo/crypto_search_cli'},
+            {type: 'Demo', url: 'https://youtu.be/aHI5HzrzyAk'}
+        ],
+        description: "Command line application to search for current and historical market information on popular cryptocurrencies.",
+        bullets: [
+            "Built with Ruby.", 
+            "Nokogiri - Web-scraping and data population.", 
+            "Money and Date gems - Number, money, and date string formatting."
         ]
     }
 ]

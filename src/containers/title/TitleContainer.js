@@ -1,5 +1,6 @@
 import './TitleContainer.css'
 import mainPortrait from '../../img/mainportrait.png'
+import logo from '../../img/logo.png'
 import SocialContainer from './SocialContainer'
 import IntroContainer from './IntroContainer'
 import NavBar from '../../components/NavBar'
@@ -21,6 +22,7 @@ export default function TitleContainer() {
         <div className="title_container">
             <h1>Rick Moore</h1>
             <img src={mainPortrait} id="main-portrait" alt="main portrait" />
+            <img src={logo} id="logo" alt="logo" />
             <div id="diamond"></div>
             <div id="diamond2"></div>
             <div id="rect1"></div>
