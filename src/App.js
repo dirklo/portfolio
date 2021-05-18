@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import TitleContainer from './containers/title/TitleContainer'
 import ProjectsContainer from './containers/projects/ProjectsContainer'
 import ContactContainer from './containers/contact/ContactContainer'
+import StoryContainer from './containers/story/StoryContainer'
 
 class App extends Component {
   componentDidMount() {
@@ -14,6 +15,7 @@ class App extends Component {
       <div className="App">
         <TitleContainer />
         <ProjectsContainer />
+        <StoryContainer />
         <ContactContainer />
       </div>
     );

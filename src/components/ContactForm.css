@@ -45,6 +45,7 @@
     color: white;
     font-size: 18px;
 }
+
 .contact-form textarea {
     font-family: 'Roboto';
     font-size: 18px;
@@ -56,6 +57,41 @@
     border: 2px solid white;
     border-radius: 5px;
     background: transparent;
+}
+
+.contact-form input[type='submit'] {
+    background: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.contact-form input[type='submit']:hover {
+    background-color: rgba(128, 128, 128, 0.23);
+    transform: scale(1.1);
+}
+
+.contact-form input[type='submit']:focus {
+    outline: none;
+} 
+
+.contact-form .success {
+    color: rgb(6, 251, 6);
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.463);
+    align-self: center;
+}
+
+.contact-form .failure {
+    color: red;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.463);
+    align-self: center;
 }
 
 @media (max-width: 480px) {

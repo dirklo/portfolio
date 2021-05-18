@@ -4,6 +4,7 @@
     top: 200px;
     color: white;
     font-family: Roboto;
+    overflow-x: hidden;
 }
 
 .intro-container #top {

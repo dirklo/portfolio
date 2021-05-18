@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import emailjs from 'emailjs-com'
 import './ContactForm.css'
 
 export default class ContactForm extends Component {
@@ -9,7 +10,9 @@ export default class ContactForm extends Component {
             email: '',
             message: '',
             contactNameActive: false,
-            emailActive: false
+            emailActive: false,
+            success: false,
+            failure: false,
         }
     }
 
@@ -19,7 +22,28 @@ export default class ContactForm extends Component {
 
     handleOnSubmit = (e) => {
         e.preventDefault();
-        console.log(this.state)
+        emailjs.sendForm('service_4vc0z98', 'template_hhzaron', e.target, 'user_myH7KNeG4kPpX8Fw6Nj1u')
+        .then((res) => {
+            this.setState({
+                ...this.state,
+                success: true,
+                failure: false
+            });
+        }, (error) => {
+            this.setState({
+                ...this.state,
+                success: false,
+                failure: true
+            });
+        });
+        this.setState({
+            ...this.state,
+            contactName: '',
+            email: '',
+            message: '',
+            contactNameActive: false,
+            emailActive: false
+        })
     }
 
     activateField=(e)=> { 
@@ -59,6 +83,7 @@ export default class ContactForm extends Component {
                         onBlur={this.disableFocus}
                         value={this.state.contactName}
                         placeholder=' '
+                        required
                         >
                     </input>
                 </div>
@@ -79,6 +104,7 @@ export default class ContactForm extends Component {
                         onBlur={this.disableFocus}
                         value={this.state.email}
                         placeholder=' '
+                        required
                         >
                     </input>
                 </div>
@@ -95,8 +121,20 @@ export default class ContactForm extends Component {
                     id='message'
                     onChange={this.handleOnChange}
                     value={this.state.message}
+                    required
                 >
                 </textarea>
+                <input type="submit" value="Send Message"/>
+                {this.state.success ? 
+                    <div className="success">
+                        Thank you! Message sucessfully sent!
+                    </div>
+                : null} 
+                {this.state.failure ?
+                    <div className="failure">
+                        Something went wrong, please try again later!
+                    </div> 
+                : null}
             </form>
         )
     }
