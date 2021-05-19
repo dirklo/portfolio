@@ -43,6 +43,7 @@
     background-color: var(--clr3);
     z-index: 1;
 }
+
 .nav-menu-button .bar3 {
     content: '';
     position: absolute;
@@ -56,9 +57,10 @@
     z-index: 1;
 }
 
-
 .nav-menu {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     z-index: 10;
@@ -79,5 +81,5 @@
 
 .nav-menu a {
     text-decoration: none;
-    color: var(--clr1)
+    color: var(--clr1);
 }
