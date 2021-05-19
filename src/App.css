@@ -6,6 +6,7 @@
   --clr3: #ffdd00;
 }
 .App {
+  width: 100vw;
   position: relative;
   background-color: var(--clr1);
   display: flex;

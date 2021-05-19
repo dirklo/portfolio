@@ -3,7 +3,8 @@ import mainPortrait from '../../img/mainportrait.png'
 import logo from '../../img/logo.png'
 import SocialContainer from './SocialContainer'
 import IntroContainer from './IntroContainer'
-import NavBar from '../../components/NavBar'
+// import NavBar from '../../components/NavBar'
+import NavMenu from '../../components/NavMenu'
 // import React, { useEffect } from 'react'
 // import Rellax from "rellax";
 
@@ -28,7 +29,8 @@ export default function TitleContainer(props) {
             <div id="rect1"></div>
             <SocialContainer />
             <IntroContainer />
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavMenu />
         </div>
     )
 }

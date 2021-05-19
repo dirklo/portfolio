@@ -14,18 +14,18 @@ export default function StoryCard(props) {
     return (
         <>
             {props.direction === 'right' ? 
-                <div className={inView ? "story-card" : "story-card offscreen right"} 
+                <div className={inView ? "story-card right" : "story-card offscreen right"} 
                     ref={ref}
                 >
                     <img src={props.image} alt="" className="icon" />
                     <div className="content">{props.content}</div>
                 </div>
             :
-                <div className={inView ? "story-card" : "story-card offscreen left"}  
+                <div className={inView ? "story-card left" : "story-card offscreen left"}  
                     ref={ref}
                 >
-                    <div className="content">{props.content}</div>
                     <img src={props.image} alt="" className="icon" />
+                    <div className="content">{props.content}</div>
                 </div>    
             }
         </>

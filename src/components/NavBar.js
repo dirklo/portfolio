@@ -14,7 +14,12 @@ export default class NavBar extends Component {
                     >
                         Projects
                     </HashLink>
-                <a href='#resume'>Resume</a>
+                    <HashLink 
+                        smooth
+                        to='#resume'
+                    >
+                        Resume
+                    </HashLink>
                     <HashLink 
                         smooth
                         to='#contact'

@@ -23,10 +23,10 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <OnImagesLoaded 
+    <OnImagesLoaded 
         onLoaded={() => setLoading(false)}
       >
+      <div className="App">
         {loading ?
             <div className="loader">
               <PropagateLoader color='gold' loading={loading} css={override} size={20} />
@@ -38,8 +38,8 @@ function App() {
           <StoryContainer loading={loading}/>
           <ResumeContainer loading={loading}/>
           <ContactContainer loading={loading}/>
-      </OnImagesLoaded>
-    </div>
+      </div>
+    </OnImagesLoaded>
   )
 }
 

@@ -20,6 +20,10 @@
     flex: 1;
 }
 
+.story-card.left {
+    flex-direction: row-reverse;
+}
+
 .story-card.offscreen.left {
     opacity: 0;
     transform: translateX(-50%)
@@ -28,4 +32,17 @@
 .story-card.offscreen.right {
     opacity: 0;
     transform: translateX(50%)
+}
+
+@media (max-width: 480px) {
+    .story-card {
+        width: 95%;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .story-card.left {
+        flex-direction: column;
+    }
 }

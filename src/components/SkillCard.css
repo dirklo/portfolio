@@ -19,3 +19,13 @@
 .skill-card h2 {
     font-size: 20px;
 }
+
+@media (max-width: 480px) {
+    .skill-card {
+        width: 120px;
+        margin: 10px;
+    }
+    .skill-card h2 {
+        font-size: 12px;
+    }
+}

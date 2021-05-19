@@ -1,6 +1,8 @@
 import React from 'react'
 import './ResumeContainer.css'
 import SkillsContainer from './SkillsContainer'
+import EducationContainer from './EducationContainer'
+import ExperienceContainer from './ExperienceContainer'
 
 export default function ResumeContainer(props) {
     return (
@@ -9,6 +11,8 @@ export default function ResumeContainer(props) {
             id="resume"
         >
             <SkillsContainer />
+            <ExperienceContainer />
+            <EducationContainer />
         </div>
     )
 }

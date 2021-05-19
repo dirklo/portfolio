@@ -1,0 +1,14 @@
+.experience-card {
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.552);
+    padding: 20px 10px 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .experience-card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

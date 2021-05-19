@@ -1,0 +1,24 @@
+.education-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.education-container .education-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} 
+
+.education-container h1 {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .education-container .education-list {
+        flex-direction: column;
+    }
+}
