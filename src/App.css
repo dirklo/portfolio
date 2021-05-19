@@ -3,6 +3,7 @@
 :root {
   --clr1: #151D3C;
   --clr2: #575e95;
+  --clr3: #ffdd00;
 }
 .App {
   position: relative;

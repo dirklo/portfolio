@@ -71,7 +71,7 @@
     transform: rotate(-30deg);
     top: 100px;
     right: 100px;
-    background: rgba(255, 198, 26, 0.8);
+    background: var(--clr3);
     z-index: 0;
     animation: spin 20s infinite linear;
 }
@@ -92,7 +92,7 @@
     border-radius: 50px;
     top: 110px;
     left: 110px;
-    background: rgba(255, 198, 26, 0.8);
+    background: var(--clr3);
     z-index: 0;
     animation: spin2 30s infinite linear;
 }
