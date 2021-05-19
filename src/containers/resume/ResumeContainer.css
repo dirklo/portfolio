@@ -1,12 +1,16 @@
 .projects-container {
     position: relative;
     width: 1320px;
-    background-color: #575e95;
+    background-color: var(--clr2);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     overflow-x: hidden;
+}
+
+.resume-container.loading {
+    display: none;
 }
 
 @media (max-width: 480px) {

@@ -4,9 +4,9 @@ import './ProjectCard.css'
 
 function ProjectCard(props) {
 
-    const { ref, inView, entry } = useInView({
-        threshold: 0,
-        rootMargin: '500px 1000px 0px 0px',
+    const [ ref, inView ] = useInView({
+        threshold: 0.2,
+        rootMargin: '0px 0px 0px 0px',
         triggerOnce: true
     })
 

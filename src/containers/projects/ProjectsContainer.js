@@ -6,11 +6,12 @@ import projects from '../../data/projects'
 
 
 
-function ProjectsContainer() {
+function ProjectsContainer(props) {
     return (
         <div
-            className="projects-container"
-            id="projects">
+            className={props.loading ? 'projects-container loading' : 'projects-container'}
+            id="projects"
+        >
             {projects.map(project => 
                 <ProjectCard
                     key={project.title} 

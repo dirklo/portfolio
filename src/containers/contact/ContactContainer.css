@@ -12,6 +12,10 @@
     overflow-x: hidden;
 }
 
+.contact-container.loading {
+    display: none;
+}
+
 @media (max-width: 480px) {
     .contact-container {
         width: 100%;

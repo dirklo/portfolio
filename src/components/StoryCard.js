@@ -4,9 +4,9 @@ import './StoryCard.css'
 
 export default function StoryCard(props) {
 
-    const { ref, inView, entry } = useInView({
+    const [ ref, inView ] = useInView({
         threshold: 0.1,
-        rootMargin: '0px 1000px 0px 0px',
+        rootMargin: '0px 0px 0px 0px',
         triggerOnce: true
     })
    

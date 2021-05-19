@@ -9,6 +9,10 @@
     overflow-x: hidden;
 }
 
+.projects-container.loading {
+    display: none;
+}
+
 @media (max-width: 480px) {
     .projects-container {
         width: 100%;

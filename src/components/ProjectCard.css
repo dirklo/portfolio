@@ -13,8 +13,9 @@
 }
 
 .project-card.offscreen {
+    right: 0;
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(50%);
 }
 
 .project-card .card__content {

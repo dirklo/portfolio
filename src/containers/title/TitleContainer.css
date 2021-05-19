@@ -1,12 +1,23 @@
-.title_container {
+.title-container {
     position: relative;
     height: 800px;
     width: 1320px;
     background-color: #151D3C;
     overflow: hidden;
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s, opacity 0.5s ease-in;
 }
 
-.title_container h1 {
+.title-container.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.title-container h1 {
     position: absolute;
     width: 276px;
     height: 168px;
@@ -27,7 +38,7 @@
     cursor: default;
 }
 
-.title_container #main-portrait {
+.title-container #main-portrait {
     position: absolute;
     height: 700px;
     bottom: 0px;
@@ -36,14 +47,14 @@
     pointer-events: none;
 }
 
-.title_container #logo {
+.title-container #logo {
     position: absolute;
     top: 10px;
     left: 0;
     height: 100px;
 }
 
-.title_container #rect1 {
+.title-container #rect1 {
     position: absolute;
     bottom: 230px;
     left: 230px;
@@ -52,7 +63,7 @@
     background-color: #021DA8;
 }
 
-.title_container #diamond {
+.title-container #diamond {
     position: absolute;
     height: 200px;
     width: 200px;
@@ -74,7 +85,7 @@
     }
 }
 
-.title_container #diamond2 {
+.title-container #diamond2 {
     position: absolute;
     height: 350px;
     width: 350px;
