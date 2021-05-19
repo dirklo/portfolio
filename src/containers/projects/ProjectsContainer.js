@@ -12,18 +12,21 @@ function ProjectsContainer(props) {
             className={props.loading ? 'projects-container loading' : 'projects-container'}
             id="projects"
         >
-            {projects.map(project => 
-                <ProjectCard
-                    key={project.title} 
-                    title={project.title}
-                    titleImg={project.titleImg}
-                    bgImg={project.bgImg}
-                    techs={project.techs} 
-                    links={project.links}
-                    description={project.description}
-                    bullets={project.bullets}
-                />
-            )}
+            <h1>My Projects</h1>
+            <div className="projects-list">
+                {projects.map(project => 
+                    <ProjectCard
+                        key={project.title} 
+                        title={project.title}
+                        titleImg={project.titleImg}
+                        bgImg={project.bgImg}
+                        techs={project.techs} 
+                        links={project.links}
+                        description={project.description}
+                        bullets={project.bullets}
+                    />
+                )}
+            </div>
         </div>
     )
 }

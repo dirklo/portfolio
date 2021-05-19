@@ -1,6 +1,5 @@
 .contact-container {
     width: 1320px;
-    height: 600px;
     margin-bottom: 50px;
     background-color: #151D3C;
     border-radius: 0 0 67px 67px;
@@ -10,6 +9,11 @@
     align-items: center;
     z-index: 2;
     overflow-x: hidden;
+}
+
+.contact-container h1 {
+    color: white;
+    text-align: center;
 }
 
 .contact-container.loading {

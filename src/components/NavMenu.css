@@ -1,4 +1,4 @@
-.nav-menu {
+.nav-menu-button {
     position: fixed;
     right: 5px;
     top: 5px;
@@ -8,7 +8,8 @@
     background-color: var(--clr3);
     z-index: 10;
 }
-.nav-menu:after {
+
+.nav-menu-button:after {
     content: '';
     position: absolute;
     height: 75px;
@@ -17,7 +18,7 @@
     background-color: var(--clr1)
 }
 
-.nav-menu .bar1 {
+.nav-menu-button .bar1 {
     content: '';
     position: absolute;
     top: 20%;
@@ -30,7 +31,7 @@
     z-index: 1;
 }
 
-.nav-menu .bar2 {
+.nav-menu-button .bar2 {
     content: '';
     position: absolute;
     top: 45%;
@@ -42,7 +43,7 @@
     background-color: var(--clr3);
     z-index: 1;
 }
-.nav-menu .bar3 {
+.nav-menu-button .bar3 {
     content: '';
     position: absolute;
     top: 70%;
@@ -53,4 +54,30 @@
     border-radius: 50px;
     background-color: var(--clr3);
     z-index: 1;
+}
+
+
+.nav-menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: var(--clr3);
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-menu.show {
+    display: flex;
+}
+
+.nav-menu.hide {
+    display: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: var(--clr1)
 }

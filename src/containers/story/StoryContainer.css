@@ -8,6 +8,11 @@
     overflow-x: hidden;
 }
 
+.story-container h1 {
+    color: white;
+    text-align: center;
+}
+
 .story-container.loading {
     display: none;
 }

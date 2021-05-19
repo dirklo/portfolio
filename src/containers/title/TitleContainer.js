@@ -1,14 +1,15 @@
+import React from 'react'
 import './TitleContainer.css'
 import mainPortrait from '../../img/mainportrait.png'
 import logo from '../../img/logo.png'
 import SocialContainer from './SocialContainer'
 import IntroContainer from './IntroContainer'
-// import NavBar from '../../components/NavBar'
+import NavBar from '../../components/NavBar'
 import NavMenu from '../../components/NavMenu'
-// import React, { useEffect } from 'react'
 // import Rellax from "rellax";
 
 export default function TitleContainer(props) {
+
     // useEffect(() => {
     //     new Rellax(".slow", {
     //         speed: -5,
@@ -29,8 +30,12 @@ export default function TitleContainer(props) {
             <div id="rect1"></div>
             <SocialContainer />
             <IntroContainer />
-            {/* <NavBar /> */}
-            <NavMenu />
+            <nav className="navbar-wrapper">
+                <NavBar />
+            </nav>
+            <nav className="navmenu-wrapper">
+                <NavMenu />
+            </nav>
         </div>
     )
 }
