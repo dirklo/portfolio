@@ -2,12 +2,16 @@
     position: absolute;
     top: 35px;
     right: 50px;
-    width: 300px;
+    width: 350px;
     z-index: 2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-bar.loading {
+    display: none;
 }
 
 .nav-bar a {

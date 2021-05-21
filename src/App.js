@@ -37,10 +37,10 @@ function App() {
           : null
         }
           <nav className="navbar-wrapper">
-            <NavBar />
+            <NavBar loading={loading}/>
           </nav>
           <nav className="navmenu-wrapper">
-            <NavMenu setHidePage={() => setHidePage(!hidePage)}/>
+            <NavMenu setHidePage={(bool) => setHidePage(bool)} loading={loading}/>
           </nav>
           {
             !hidePage ?
