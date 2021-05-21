@@ -4,8 +4,8 @@ import mainPortrait from '../../img/mainportrait.png'
 import logo from '../../img/logo.png'
 import SocialContainer from './SocialContainer'
 import IntroContainer from './IntroContainer'
-import NavBar from '../../components/NavBar'
-import NavMenu from '../../components/NavMenu'
+// import NavBar from '../../components/NavBar'
+// import NavMenu from '../../components/NavMenu'
 // import Rellax from "rellax";
 
 export default function TitleContainer(props) {
@@ -30,12 +30,6 @@ export default function TitleContainer(props) {
             <div id="rect1"></div>
             <SocialContainer />
             <IntroContainer />
-            <nav className="navbar-wrapper">
-                <NavBar />
-            </nav>
-            <nav className="navmenu-wrapper">
-                <NavMenu />
-            </nav>
         </div>
     )
 }

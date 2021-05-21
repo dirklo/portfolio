@@ -24,3 +24,16 @@
   align-items: center;
 }
 
+.title-container .navmenu-wrapper {
+  display: none;
+}
+
+@media (max-width: 375px){
+  .App .navbar-wrapper {
+    display: none;
+  }
+  
+  .App .navmenu-wrapper {
+    display: block;
+  }
+}

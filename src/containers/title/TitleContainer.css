@@ -75,10 +75,6 @@
     z-index: 0;
     animation: spin 20s infinite linear;
 }
-
-.title-container .navmenu-wrapper {
-    display: none;
-}
   
 @keyframes spin {
     from { 
@@ -158,14 +154,6 @@
         position: relative;
         bottom: 0px;
         left: 0px;
-    }
-
-    .title-container .navbar-wrapper {
-        display: none;
-    }
-
-    .title-container .navmenu-wrapper {
-        display: block;
     }
 }
 

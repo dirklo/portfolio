@@ -2,8 +2,8 @@
     position: fixed;
     right: 5px;
     top: 5px;
-    height: 80px;
-    width: 80px;
+    height: 65px;
+    width: 65px;
     border-radius: 50%;
     background-color: var(--clr3);
     z-index: 10;
@@ -12,8 +12,8 @@
 .nav-menu-button:after {
     content: '';
     position: absolute;
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     background-color: var(--clr1)
 }
@@ -34,7 +34,7 @@
 .nav-menu-button .bar2 {
     content: '';
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translateX(-55%);
     height: 5px;
@@ -47,7 +47,7 @@
 .nav-menu-button .bar3 {
     content: '';
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translateX(-55%);
     height: 5px;
@@ -66,17 +66,19 @@
     z-index: 10;
     background-color: var(--clr3);
     font-size: 30px;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    transition: all 1s ease-out;
 }
 
 .nav-menu.show {
-    display: flex;
+    clip-path: circle(1000px at 90% -15%);
 }
 
 .nav-menu.hide {
-    display: none;
+    clip-path: circle(100px at 90% -15%);
 }
 
 .nav-menu a {
