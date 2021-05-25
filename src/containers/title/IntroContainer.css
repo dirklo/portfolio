@@ -37,6 +37,31 @@
     color: rgba(192, 201, 249, 1);
 }
 
+@media (max-width: 1320px) {
+    .intro-container {
+        position: relative;
+        left: 10px;
+        top: -50px;
+        width: 50%;
+    }
+
+    .intro-container #top {
+        padding: 10px;
+    }
+
+    .intro-container #middle {
+        width: 100%;
+        padding: 10px;
+        font-size: 36px;
+    }
+
+    .intro-container #bottom {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+}
+
 @media (max-width: 480px) {
     .intro-container {
         position: relative;

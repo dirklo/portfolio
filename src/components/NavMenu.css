@@ -78,11 +78,11 @@
 }
 
 .nav-menu.show {
-    clip-path: circle(1000px at 90% -15%);
+    clip-path: circle(1000px at 90% -20%);
 }
 
 .nav-menu.hide {
-    clip-path: circle(100px at 90% -15%);
+    clip-path: circle(100px at 90% -20%);
 }
 
 .nav-menu a {

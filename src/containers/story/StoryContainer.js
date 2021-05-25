@@ -10,12 +10,14 @@ export default function StoryContainer(props) {
             id="story"
         >
             <h1>My Story</h1>
-            {stories.map((story, index) => <StoryCard
-                key={index}
-                content={story.content}
-                image={story.image}
-                direction={story.direction}
-            />)}
+            <div className="story-list">
+                {stories.map((story, index) => <StoryCard
+                    key={index}
+                    content={story.content}
+                    image={story.image}
+                    direction={story.direction}
+                />)}
+            </div>
         </div>
     )
 }

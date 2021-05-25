@@ -1,6 +1,7 @@
 .resume-container {
     position: relative;
-    width: 1320px;
+    max-width: 1320px;
+    width: 100vw;
     background-color: var(--clr2);
     display: flex;
     flex-direction: column;
