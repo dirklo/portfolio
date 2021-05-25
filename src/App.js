@@ -5,6 +5,7 @@ import ProjectsContainer from './containers/projects/ProjectsContainer'
 import StoryContainer from './containers/story/StoryContainer'
 import ResumeContainer from './containers/resume/ResumeContainer'
 import ContactContainer from './containers/contact/ContactContainer'
+import VideoContainer from './containers/video/VideoContainer'
 import { css } from "@emotion/core"
 import PropagateLoader from "react-spinners/PropagateLoader"
 import OnImagesLoaded from 'react-on-images-loaded'
@@ -46,6 +47,7 @@ function App() {
             !hidePage ?
               <>
                 <TitleContainer loading={loading} />
+                <VideoContainer loading={loading} />
                 <ProjectsContainer loading={loading}/>
                 <StoryContainer loading={loading}/>
                 <ResumeContainer loading={loading}/>
