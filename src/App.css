@@ -7,6 +7,7 @@
 }
 .App {
   width: 100vw;
+  max-width: 1320px;
   position: relative;
   background-color: var(--clr1);
   display: flex;

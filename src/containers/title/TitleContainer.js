@@ -1,7 +1,7 @@
 import React from 'react'
 import './TitleContainer.css'
 import mainPortrait from '../../img/mainportrait.png'
-import logo from '../../img/logo.png'
+import logo from '../../img/logo-sm.png'
 import SocialContainer from './SocialContainer'
 import IntroContainer from './IntroContainer'
 // import NavBar from '../../components/NavBar'
