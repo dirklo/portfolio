@@ -13,7 +13,7 @@ export default function BlogCard({ post }) {
             <h3>{parseDate(post.pubDate)}</h3>
             <h2>{post.title}</h2>
             <img src={post.thumbnail} alt={post.title}/>
-            <a href={post.link} target='blank'>Read on Medium.com...</a>
+            <a href={post.link} target='blank'>Read Full Article</a>
         </div>
     )
 }
