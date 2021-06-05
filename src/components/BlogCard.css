@@ -1,0 +1,27 @@
+.blog-card {
+    background: linear-gradient(45deg, gold, rgb(255, 179, 0), yellow);
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-card h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.blog-card h3 {
+    font-size: 12px;
+    color: rgb(162, 162, 162);
+
+}
+.blog-card img {
+    height: 150px;
+    clip-path: circle();
+}

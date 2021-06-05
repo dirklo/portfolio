@@ -11,6 +11,7 @@ import PropagateLoader from "react-spinners/PropagateLoader"
 import OnImagesLoaded from 'react-on-images-loaded'
 import NavBar from './components/NavBar'
 import NavMenu from './components/NavMenu'
+import BlogContainer from './containers/blog/BlogContainer';
 
 const override = css(`
   display: block;
@@ -49,6 +50,7 @@ function App() {
                 <TitleContainer loading={loading} />
                 <VideoContainer loading={loading} />
                 <ProjectsContainer loading={loading}/>
+                <BlogContainer loading={loading} />
                 <StoryContainer loading={loading}/>
                 <ResumeContainer loading={loading}/>
                 <ContactContainer loading={loading}/>
