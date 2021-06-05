@@ -2,7 +2,7 @@
     background: linear-gradient(45deg, gold, rgb(255, 179, 0), yellow);
     width: 250px;
     height: 350px;
-    padding: 0 10px 10px 10px 10px;
+    padding: 0 10px 10px 10px;
     margin: 5px;
     border-radius: 20px 0 20px 0;
     display: flex;
@@ -18,7 +18,7 @@
 }
 
 .blog-card h3 {
-    width: calc(100% - 20px);
+    width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     padding: 10px;
