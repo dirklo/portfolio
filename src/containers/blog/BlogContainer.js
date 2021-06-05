@@ -14,7 +14,7 @@ export default function BlogContainer() {
     }, [])
 
     return (
-        <div className='blog-container'>
+        <div className='blog-container' id='blog'>
             <h1>My Recent Publications</h1>
             <br/>
             <div className="blog-list">

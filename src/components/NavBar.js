@@ -15,6 +15,12 @@ function NavBar(props) {
                 </HashLink>
                 <HashLink 
                     smooth
+                    to='#blog'
+                >
+                    Blog
+                </HashLink>
+                <HashLink 
+                    smooth
                     to='#story'
                 >
                     About Me

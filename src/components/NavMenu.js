@@ -36,12 +36,15 @@ export default function NavMenu(props) {
                     <div className={active ? "nav-menu show" : "nav-menu hide"}>
                         <HashLink 
                             to='#projects'
-                            onClick={() => {
-                                handleClick()
-                                console.log('in button ' + timer)
-                            }}
+                            onClick={() => handleClick()}
                         >
                             Projects
+                        </HashLink>
+                        <HashLink 
+                            to='#blog'
+                            onClick={() => handleClick()}
+                        >
+                            Blog
                         </HashLink>
                         <HashLink 
                             to='#story'
