@@ -2,13 +2,14 @@
     background: linear-gradient(45deg, gold, rgb(255, 179, 0), yellow);
     width: 250px;
     height: 350px;
-    padding: 10px;
+    padding: 0 10px 10px 10px 10px;
     margin: 5px;
     border-radius: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .blog-card h2 {
@@ -17,11 +18,23 @@
 }
 
 .blog-card h3 {
-    font-size: 12px;
+    width: calc(100% - 20px);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    background-color: black;
+    text-align: right;
+
+    font-size: 18px;
     color: rgb(162, 162, 162);
 
 }
+
 .blog-card img {
     height: 150px;
     clip-path: circle();
+}
+
+.blog-card a {
+    text-decoration: none;
 }
