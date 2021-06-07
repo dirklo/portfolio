@@ -32,7 +32,7 @@ const projects = [
         links: [
             {type: 'Code', url: 'https://github.com/dirklo/taskaholik-front-end'},
             {type: 'Demo', url: 'https://youtu.be/FmPsPjfME3E'},
-            {type: 'Live App', url: 'https://dirklo.github.io/taskaholik-frontend/'}
+            {type: 'Live App', url: 'https://dirklo.github.io/taskaholik-front-end/'}
         ],
         description: "Bug-tracker that allows a team to delegate and track work on multiple projects.",
         bullets: [

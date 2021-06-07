@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './BlogContainer.css'
 import BlogCard from '../../components/BlogCard'
 
-export default function BlogContainer() {
+export default function BlogContainer({ loading }) {
     const [ blogPosts, setBlogPosts ] = useState([])
 
     useEffect(() => {
@@ -14,7 +14,7 @@ export default function BlogContainer() {
     }, [])
 
     return (
-        <div className='blog-container' id='blog'>
+        <div className={ loading? 'blog-container loading' : 'blog-container'} id='blog'>
             <h1>My Recent Publications</h1>
             <br/>
             <div className="blog-list">
