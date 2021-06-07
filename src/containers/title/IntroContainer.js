@@ -4,9 +4,9 @@ import './IntroContainer.css'
 function IntroContainer() {
     return (
         <div className="intro-container">
-            <p id="top">-Introduction-</p>
-            <p id="middle">Full-Stack<br/>Web Developer</p>
-            <p id="bottom">Creative web product designer, with experience in React/Redux, Ruby on Rails, NodeJS/Express, Python, HTML5, CSS3</p>
+            <p id="top">Software Engineer</p>
+            <hr />
+            <p id="bottom">Web Developer</p>
         </div>
     )
 }

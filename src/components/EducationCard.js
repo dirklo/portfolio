@@ -9,7 +9,7 @@ export default function EducationCard({ course }) {
             </div>
             <h2>{course.name}</h2>
             <h3>{course.location}</h3>
-            <h3>{course.subtitle}</h3>
+            <h3><em>{course.subtitle}</em></h3>
             <p>{course.startDate} to {course.endDate}</p>
             <p>{course.description}</p>
         </div>

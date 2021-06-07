@@ -1,25 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './TitleContainer.css'
 import mainPortrait from '../../img/mainportrait.png'
 import logo from '../../img/logo-sm.png'
 import SocialContainer from './SocialContainer'
 import IntroContainer from './IntroContainer'
-// import NavBar from '../../components/NavBar'
-// import NavMenu from '../../components/NavMenu'
-// import Rellax from "rellax";
+import Rellax from "rellax";
 
 export default function TitleContainer(props) {
 
-    // useEffect(() => {
-    //     new Rellax(".slow", {
-    //         speed: -5,
-    //         center: false,
-    //         wrapper: null,
-    //         round: true,
-    //         vertical: true,
-    //         horizontal: false
-    //     });
-    // }, []);
+    useEffect(() => {
+        new Rellax(".slow", {
+            speed: 0,
+            center: false,
+            wrapper: null,
+            round: true,
+            vertical: true,
+            horizontal: false
+        });
+    }, []);
+
     return (
         <div className={props.loading ? 'title-container loading' : 'title-container'} >
             <h1>Rick Moore</h1>

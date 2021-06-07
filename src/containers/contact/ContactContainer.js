@@ -8,7 +8,7 @@ export default function ContactContainer(props) {
         className={props.loading ? 'contact-container loading' : 'contact-container'}
             id="contact"
         >
-            <h1>Let's collaborate!  Feel free to send me a message!</h1>
+            <h1>Let's work together!  Feel free to send me a message!</h1>
             <ContactForm />
         </div>
     )
