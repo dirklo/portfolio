@@ -28,8 +28,8 @@ function App() {
     <>
       <MetaTags>
               <title>Rick Moore Portfolio</title>
-              <meta name="description" content="Development Portfolio for Rick Moore." />
-              <meta property="og:title" content="Right Moore Portfolio" />
+              <meta name="description" content="Development Portfolio for Rick Moore" />
+              <meta property="og:title" content="Rick Moore Portfolio" />
               <meta property="og:image" content="./img/logo.png" />
       </MetaTags>
       <OnImagesLoaded 
