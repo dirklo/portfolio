@@ -30,7 +30,7 @@ function App() {
               <title>Rick Moore Portfolio</title>
               <meta name="description" content="Development Portfolio for Rick Moore" />
               <meta property="og:title" content="Rick Moore Portfolio" />
-              <meta property="og:image" content="./img/logo.png" />
+              <meta property="og:image" content="./img/logo.jpg" />
       </MetaTags>
       <OnImagesLoaded 
           onLoaded={() => setLoading(false)}
