@@ -28,7 +28,7 @@ function App() {
     <>
       <MetaTags>
               <title>Rick Moore Portfolio</title>
-              <meta name="description" content="Development Portfolio for Rick Moore" />
+              <meta name="description" content="Development portfolio of Rick Moore, Web Developer and Software Engineer.  Portfolio includes project code and demonstrations, resume, background, and contact information." />
               <meta property="og:title" content="Rick Moore Portfolio" />
               <meta property="og:image" content="./img/logo.jpg" />
       </MetaTags>
