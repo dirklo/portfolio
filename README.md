@@ -1,4 +1,4 @@
-# Portfolio website for Rick Moore
+# Portfolio site for Rick Moore
 
 ## Built with React.JS v17.0.2
 
