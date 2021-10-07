@@ -30,9 +30,9 @@ const projects = [
             {name: 'rails', img: rails, height: '75px'}
         ],
         links: [
-            {type: 'Code', url: 'https://github.com/dirklo/taskaholik-front-end'},
+            {type: 'Code', url: 'https://github.com/rick-moore/taskaholik-front-end'},
             {type: 'Demo', url: 'https://youtu.be/FmPsPjfME3E'},
-            {type: 'Live App', url: 'https://dirklo.github.io/taskaholik-front-end/'}
+            {type: 'Live App', url: 'https://rick-moore.github.io/taskaholik-front-end/'}
         ],
         description: "Bug-tracker that allows a team to delegate and track work on multiple projects.",
         bullets: [
@@ -56,9 +56,9 @@ const projects = [
             {name: 'rails', img: rails, height: '75px'}
         ],
         links: [
-            {type: 'Code', url: 'https://github.com/dirklo/hang-pan-frontend'},
+            {type: 'Code', url: 'https://github.com/rick-moore/hang-pan-frontend'},
             {type: 'Demo', url: 'https://youtu.be/36xpt6U-q0g'},
-            {type: 'Live App', url: 'https://dirklo.github.io/hang-pan-frontend/'}
+            {type: 'Live App', url: 'https://rick-moore.github.io/hang-pan-frontend/'}
         ],
         description: "Virtual Instrument that users can perform in-browser.",
         bullets: [
@@ -83,7 +83,7 @@ const projects = [
             {name: 'rails', img: rails, height: '75px'}
         ],
         links: [
-            {type: 'Code', url: 'https://github.com/dirklo/chart-source'},
+            {type: 'Code', url: 'https://github.com/rick-moore/chart-source'},
             {type: 'Demo', url: 'https://youtu.be/WjS2R5mJihA'},
             {type: 'Live App', url: 'https://chart-source.herokuapp.com/'}
         ],
@@ -110,7 +110,7 @@ const projects = [
             {name: 'sinatra', img: sinatra, height: '75px'}
         ],
         links: [
-            {type: 'Code', url: 'https://github.com/dirklo/quiz-it'},
+            {type: 'Code', url: 'https://github.com/rick-moore/quiz-it'},
             {type: 'Demo', url: 'https://youtu.be/_Yxp_dMFs2I'},
             {type: 'Live App', url: 'https://quiz-it-three.herokuapp.com/'}
         ],
@@ -135,7 +135,7 @@ const projects = [
             {name: 'ruby', img: ruby, height: '75px'}
         ],
         links: [
-            {type: 'Code', url: 'https://github.com/dirklo/crypto_search_cli'},
+            {type: 'Code', url: 'https://github.com/rick-moore/crypto_search_cli'},
             {type: 'Demo', url: 'https://youtu.be/aHI5HzrzyAk'}
         ],
         description: "Command line application to search for current and historical market information on popular cryptocurrencies.",
