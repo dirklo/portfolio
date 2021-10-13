@@ -6,7 +6,7 @@ export default function BlogContainer({ loading }) {
     const [ blogPosts, setBlogPosts ] = useState([])
 
     useEffect(() => {
-        fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@dirklo')
+        fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@rick-moore')
         .then(res => res.json())
         .then(json => {
             setBlogPosts(json.items.slice(0, 4))
