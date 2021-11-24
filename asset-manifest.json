@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f00f9117.chunk.css",
-    "main.js": "/static/js/main.fafd928a.chunk.js",
-    "main.js.map": "/static/js/main.fafd928a.chunk.js.map",
+    "main.css": "/static/css/main.8aa4e253.chunk.css",
+    "main.js": "/static/js/main.bb144e1a.chunk.js",
+    "main.js.map": "/static/js/main.bb144e1a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.15125fd5.chunk.js": "/static/js/2.15125fd5.chunk.js",
     "static/js/2.15125fd5.chunk.js.map": "/static/js/2.15125fd5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f00f9117.chunk.css.map": "/static/css/main.f00f9117.chunk.css.map",
+    "static/css/main.8aa4e253.chunk.css.map": "/static/css/main.8aa4e253.chunk.css.map",
     "static/js/2.15125fd5.chunk.js.LICENSE.txt": "/static/js/2.15125fd5.chunk.js.LICENSE.txt",
     "static/media/bootstrap.f67391ee.svg": "/static/media/bootstrap.f67391ee.svg",
     "static/media/bose.2d488b1f.svg": "/static/media/bose.2d488b1f.svg",
@@ -22,7 +22,6 @@
     "static/media/css.e91d0113.svg": "/static/media/css.e91d0113.svg",
     "static/media/flatiron.17072033.svg": "/static/media/flatiron.17072033.svg",
     "static/media/github.895050b2.svg": "/static/media/github.895050b2.svg",
-    "static/media/greatmodulator.d8ba1120.jpeg": "/static/media/greatmodulator.d8ba1120.jpeg",
     "static/media/html.47510c08.svg": "/static/media/html.47510c08.svg",
     "static/media/javascript.081325c6.svg": "/static/media/javascript.081325c6.svg",
     "static/media/linkedin.64c918fa.svg": "/static/media/linkedin.64c918fa.svg",
@@ -43,13 +42,14 @@
     "static/media/sinatra.5c61ac4b.png": "/static/media/sinatra.5c61ac4b.png",
     "static/media/taskaholik.93e3b8c2.png": "/static/media/taskaholik.93e3b8c2.png",
     "static/media/taskaholikBg.98d66771.png": "/static/media/taskaholikBg.98d66771.png",
+    "static/media/thrive.a5150b2b.svg": "/static/media/thrive.a5150b2b.svg",
     "static/media/twitter.d73e4478.svg": "/static/media/twitter.d73e4478.svg",
     "static/media/web.938af32a.svg": "/static/media/web.938af32a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.15125fd5.chunk.js",
-    "static/css/main.f00f9117.chunk.css",
-    "static/js/main.fafd928a.chunk.js"
+    "static/css/main.8aa4e253.chunk.css",
+    "static/js/main.bb144e1a.chunk.js"
   ]
 }
