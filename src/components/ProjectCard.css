@@ -126,7 +126,7 @@
     cursor: default; 
 }
 
-.project-card .card__content .card__back li {
+.project-card .card__content .card__back .bullets-list {
     font-size: 14px;
     color: white;
     transform: var(--level-one);
