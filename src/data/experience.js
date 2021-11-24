@@ -1,8 +1,21 @@
 import carnival from '../img/carnival.png'
 import bose from '../img/bose.svg'
-import greatmodulator from '../img/greatmodulator.jpeg'
+import thrive from '../img/thrive.svg'
 
 const experience = [
+    {
+        icon: thrive,
+        size: "150px",
+        name: "ThriveTRM",
+        location: "Haddonfield, NJ",
+        position: "Software Engineer I",
+        bullets: [
+            "Support and develop the ThriveTRM app, directly affecting over 2,700 companies.",
+            "Review fellow developers code to maintain high standards department and company wide"
+        ],
+        startDate: "10/2021",
+        endDate: "present"
+    },
     {
         icon: carnival,
         size: "50px",
@@ -15,7 +28,7 @@ const experience = [
             "Created Excel templates for scheduling and stage equipment management."
         ],
         startDate: "06/2014",
-        endDate: "present"
+        endDate: "03/2020"
     },
     {
         icon: bose,
@@ -29,18 +42,6 @@ const experience = [
         ],
         startDate: "09/2007",
         endDate: "09/2009"
-    },
-    {
-        icon: greatmodulator,
-        size: "50px",
-        name: "Great Modulator Productions",
-        location: "Murphys, CA",
-        position: "Owner/Engineer",
-        bullets: [
-            "Oversaw the day-to-day technical operations and the complete production of over 50 albums."
-        ],
-        startDate: "09/2009",
-        endDate: "06/2014"
     }
 ]
 
