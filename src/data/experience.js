@@ -7,7 +7,7 @@ const experience = [
         icon: thrive,
         size: "150px",
         name: "ThriveTRM",
-        location: "Haddonfield, NJ",
+        location: "Haddonfield, NJ (Remote)",
         position: "Software Engineer I",
         bullets: [
             "Support and develop the ThriveTRM app, directly affecting over 2,700 companies.",
