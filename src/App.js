@@ -52,7 +52,6 @@ function App() {
               !hidePage ?
                 <>
                   <TitleContainer loading={loading} />
-                  <VideoContainer loading={loading} />
                   <ProjectsContainer loading={loading}/>
                   <BlogContainer loading={loading} />
                   <StoryContainer loading={loading}/>
