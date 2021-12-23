@@ -8,7 +8,7 @@ function SocialContainer() {
     return (
         <div className="social-container">
             <a 
-                href="https://github.com/dirklo" 
+                href="https://github.com/rick-moore" 
                 target="_blank" 
                 rel="noreferrer"
             >
